@@ -6,8 +6,8 @@
 }
 
 body {
-  background: #fff5f5;
-  color: #333;
+  background: #ffffff;
+  color: #191818;
 }
 
 /* Navbar */
@@ -15,7 +15,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #ffb6b9;
+  background-color: #FAEBD7;
   padding: 1rem 2rem;
   position: sticky;
   top: 0;
@@ -42,11 +42,11 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #ffe4e1;
+  background-color: #FAEBD7;
   text-align: center;
 }
 .hero-wrapper {
-  background-color:#ffe4e1 ;
+  background-color:#FAEBD7;
   padding: 20px 40px;
   border-radius: 12px;
 }
@@ -58,18 +58,19 @@ body {
 /* Menu */
 .menu {
   padding: 60px 20px;
-  background-color: #ffe4e1 ;
+  background-color:#FAEBD7;
   text-align: center;
 }
 .menu-container {
-  display: flex;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   gap: 2rem;
-  flex-wrap: wrap;
+  justify-content: center;
   margin-top: 2rem;
 }
+
 .menu-item {
-  background-color: #ffffff;
+  background-color: #000000;
   border-radius: 10px;
   padding: 20px;
   width: 220px;
@@ -84,13 +85,13 @@ body {
 }
 .menu-item span {
   font-weight: bold;
-  color: #c2185b;
+  color: #000000;
 }
     .menu-item {
-    background: #ffe4e1;
+    background: #FFDEAD;
     padding: 1rem;
     border-radius: 12px;
-    box-shadow: 0 4px 8px rgba(223, 72, 203, 0.925);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.925);
     transition: transform 0.3s;
   }
   
@@ -98,14 +99,14 @@ body {
 /* About */
 .about {
   padding: 60px 20px;
-  background-color: #ffe4e1 ;
+  background-color: #FAEBD7 ;
   text-align: center;
 }
 
 /* Order */
 .pesan {
   padding: 60px 20px;
-  background-color: #ffe4e1;
+  background-color:#FAEBD7;
   text-align: center;
 }
 .order-form {
@@ -121,20 +122,20 @@ body {
   border: 1px solid #ccc;
 }
 .order-form button {
-  background-color:#ffe4e1 ;
-  color: white;
+  background-color:#FAEBD7 ;
+  color: rgb(2, 2, 2);
   border: none;
   cursor: pointer;
   transition: 0.3s;
 }
 .order-form button:hover {
-  background-color: #ffe4e1;
+  background-color: #ffffff;
 }
 
 /* Footer */
 footer {
-  background-color: #ffe4e1;
-  color: white;
+  background-color: #FAEBD7;
+  color: rgb(0, 0, 0);
   text-align: center;
   padding: 20px;
   margin-top: 60px;
